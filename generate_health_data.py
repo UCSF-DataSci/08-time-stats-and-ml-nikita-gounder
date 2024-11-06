@@ -167,3 +167,6 @@ if __name__ == "__main__":
     baseline.to_csv('patient_baseline.csv', index=False, sep='\t', float_format='%.1f')
     longitudinal.to_csv('patient_longitudinal.csv', index=False, sep='\t', float_format='%.1f')
     treatment.to_csv('patient_treatment.csv', index=False, sep='\t', float_format='%.2f')
+
+
+#python3 generate_health_data.py
